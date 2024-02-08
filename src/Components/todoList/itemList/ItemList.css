@@ -1,0 +1,43 @@
+.todo-list-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.todo-list-item-incompleted {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+.todo-list-item-completed {
+  text-decoration: line-through;
+  color: green;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+.todo-list-item-complete-btn {
+  background-color: rgb(161, 255, 161);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.todo-list-item-erase-btn {
+  background-color: rgb(250, 120, 120);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.todo-list-item-complete-btn:hover {
+  background-color: rgb(92, 255, 92);
+  transition: 0.2s;
+}
+
+.todo-list-item-erase-btn:hover {
+  background-color: rgb(255, 53, 53);
+  transition: 0.2s;
+}

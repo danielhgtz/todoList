@@ -1,0 +1,20 @@
+.todo-list-input {
+  /* margin: 0px 10px; */
+  border-radius: 5px;
+  padding: 0px 50px;
+  text-align: center;
+}
+
+.todo-list-add-btn {
+  margin: 0px 10px;
+  background-color: rgb(172, 242, 252);
+  border-radius: 5px;
+  padding: 0px 10px;
+  border: 1px solid gray;
+}
+
+.todo-list-add-btn:hover {
+  margin: 0px 10px;
+  background-color: rgb(96, 236, 255);
+  transition: 0.2s;
+}
